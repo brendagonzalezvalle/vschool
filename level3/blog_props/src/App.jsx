@@ -29,7 +29,8 @@ function App() {
   return (
     <>
       <Header/>
-        <Navbar/>
+        <Navbar 
+        />
       <BlogList/>
         {dataBlogPost}
       <Footer/>
