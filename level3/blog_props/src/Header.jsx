@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Header(){
     return(
-        <>
-        <h1>Start Bootstrap</h1>
-        <button>Menu</button>
+        <div className="header--container">
+
+        <h1 className="header--title">Start Bootstrap</h1>
+        <button className="header--menu">Menu</button>
         
         
-        
-        </>
+        </div>
     )
 }

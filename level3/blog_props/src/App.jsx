@@ -5,6 +5,7 @@ import BlogList from "./BlogList"
 import BlogPost from "./BlogPost"
 import Footer from "./Footer"
 import data from "./data"
+import index from "./index.css"
 
 console.log(data)
 
@@ -25,6 +26,7 @@ console.log(data)
 
 function App() {
  
+  // {dataBlogPost}
 
   return (
     <>
@@ -32,7 +34,6 @@ function App() {
         <Navbar 
         />
       <BlogList/>
-        {dataBlogPost}
       <Footer/>
      
     </>
